@@ -8,7 +8,7 @@ public class Lexer {
 	public static int line = 1;
 	char peek = ' ';
 	
-	Hashtable words = new Hashtable();
+	Map<String, Word> words = new Hashtable<String, Word>();
 	
 	void reserve(Word w) {
 			words.put(w.lexeme, w);
