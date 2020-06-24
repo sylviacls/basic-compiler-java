@@ -1,5 +1,4 @@
 package parser;
-
 import java.io.*;
 import lexer.*;
 import symbols.*;
